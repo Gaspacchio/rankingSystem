@@ -1,0 +1,90 @@
+/*--- GLOBAL ---*/
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: Comfortaa, sans;
+}
+
+/*--- LOGIN PAGE ---*/
+body.loginPage {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+body.loginPage div {
+    flex-basis: 50%;
+}
+
+.background {
+    background: url(img/background.jpg) center fixed no-repeat;
+    background-size: cover;
+}
+
+.containerLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+.containerLogin form {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.containerLogin input,
+.containerLogin button {
+    margin: 5px 0;
+    border-radius: 5px;
+    border-style: solid;
+    height: 24px;
+    border-color: rgb(227, 227, 227);
+}
+
+.containerLogin button {
+    background: antiquewhite;
+}
+
+/*--- BOARD ---*/
+.rankingTitle {
+    text-align: center;
+}
+
+.rankingContainer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    padding: 25px 0;
+}
+
+.rankingContainer div {
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.rankingContainer .card {
+    text-align: left;
+    background: #dedede;
+    width: auto;
+    display: inline-block;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.rankingContainer .empty {
+    background: #ffbb81;
+}
+
+/*--- CITATION ---*/
+.citeContainer {
+    text-align: center;
+    padding-top: 25px;
+}
+
+@font-face {
+    font-family: Comfortaa;
+    src: url(font/Comfortaa-Regular.ttf);
+}
